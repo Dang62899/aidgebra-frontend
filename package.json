@@ -1,0 +1,32 @@
+{
+  "name": "aid-gebra-vue",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "test:unit": "vitest --environment jsdom",
+    "postinstall": "npm run build",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@progress/kendo-vue-excel-export": "^3.3.5",
+    "@progress/kendo-vue-grid": "^3.3.5",
+    "@vueup/vue-quill": "^1.0.0-beta.8",
+    "axios": "^0.27.2",
+    "chart.js": "^3.8.0",
+    "express": "^4.18.1",
+    "serve-static": "^1.15.0",
+    "vue": "^3.2.36",
+    "vue-chartjs": "^4.1.1",
+    "vue-router": "^4.0.15",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vue/test-utils": "^2.0.0",
+    "jsdom": "^19.0.0",
+    "vite": "^2.9.9",
+    "vitest": "^0.13.0"
+  }
+}
